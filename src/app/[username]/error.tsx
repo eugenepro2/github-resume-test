@@ -1,8 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { FC } from "react";
 
-export default function Error({ error }) {
+type Props = {
+  error: {
+    message: string;
+  };
+};
+
+const Error: FC<Props> = ({ error }) => {
   return (
     <div className="bg-white p-8 rounded shadow-md w-full max-w-md text-center flex flex-col gap-4">
       <h1 className="text-2xl font-bold">Error</h1>
@@ -12,4 +19,6 @@ export default function Error({ error }) {
       </Link>
     </div>
   );
-}
+};
+
+export default Error;
