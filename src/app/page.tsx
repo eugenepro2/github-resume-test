@@ -18,7 +18,7 @@ export default function Home() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100 px-4">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-md gap-4 flex flex-col">
         <h1 className="text-3xl font-bold text-center">
-          GitHub Resume Creator
+          GitHub Resume Generator
         </h1>
         <p className="text-center text-gray-700">
           Generate a resume for any GitHub user by entering their username
